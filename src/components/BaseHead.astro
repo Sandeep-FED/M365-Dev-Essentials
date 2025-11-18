@@ -3,7 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css"
 import type { ImageMetadata } from "astro"
-import { SITE_TITLE } from "../consts"
+import { SITE } from "../consts"
 
 interface Props {
   title: string
@@ -24,7 +24,7 @@ const { title, description } = Astro.props
 <link
   rel='alternate'
   type='application/rss+xml'
-  title={SITE_TITLE}
+  title={SITE.title}
   href={new URL("rss.xml", Astro.site)}
 />
 <meta name='generator' content={Astro.generator} />
@@ -32,16 +32,16 @@ const { title, description } = Astro.props
 <!-- Font preloads -->
 <link
   rel='preload'
-  href='/fonts/atkinson-regular.woff'
+  href='/fonts/SpaceGrotesk-regular.ttf'
   as='font'
-  type='font/woff'
+  type='font/ttf'
   crossorigin
 />
 <link
   rel='preload'
-  href='/fonts/atkinson-bold.woff'
+  href='/fonts/SpaceGrotesk-bold.ttf'
   as='font'
-  type='font/woff'
+  type='font/ttf'
   crossorigin
 />
 
