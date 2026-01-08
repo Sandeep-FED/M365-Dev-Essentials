@@ -28,21 +28,21 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/cojocaru-david?ref=personal-website",
+    href: "https://github.com/Sandeep-FED?ref=personal-website",
     label: "GitHub",
   },
   {
-    href: "mailto:contact@cojocarudavid.me",
+    href: "mailto:sandeep.ps0124@outlook.com",
     label: "Email",
   },
   {
-    href: "tel:+40764132266",
+    href: "tel:+918848080012",
     label: "Phone",
   },
-  {
-    href: "https://www.instagram.com/david._.cojo?ref=personal-website",
-    label: "Instagram",
-  },
+  // {
+  //   href: "https://www.instagram.com/david._.cojo?ref=personal-website",
+  //   label: "Instagram",
+  // },
   {
     href: "/rss.xml",
     label: "RSS",
